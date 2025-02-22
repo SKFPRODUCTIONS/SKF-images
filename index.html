@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SKF IMAGES - Ultra-fast, AI-powered image processing tool for compression, format conversion, and background removal">
+    <title>SKF IMAGES - AI-Powered Image Processing Tool</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2775618085175822" crossorigin="anonymous"></script>
+</head>
+<body class="light-mode">
+    <div class="app-container">
+        <!-- AdSense Header Ad -->
+        <div class="ad-container ad-header">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-2775618085175822"
+                data-ad-slot="7493884191"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+        <!-- Navigation Bar -->
+        <nav class="navbar glass-effect">
+            <div class="logo">
+                <span class="neon-text">SKF IMAGES</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero glass-effect">
+            <div class="hero-content">
+                <h1 class="hero-title">Transform Your Images with AI</h1>
+                <p class="hero-subtitle">Ultra-fast compression, format conversion, and background removal</p>
+                <div class="upload-container glass-effect">
+                    <div class="upload-area" id="dropZone">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>Drag & drop your image here or</p>
+                        <button class="upload-btn neon-btn">Choose File</button>
+                        <input type="file" id="fileInput" accept="image/*" hidden>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <!-- AdSense In-feed Ad -->
+            <div class="ad-container ad-features">
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-2775618085175822"
+                    data-ad-slot="7493884191"
+                    data-ad-format="fluid"
+                    data-ad-layout-key="-fb+5w+4e-db+86"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <h2 class="section-title neon-text">Features</h2>
+            <div class="features-grid">
+                <div class="feature-card glass-effect">
+                    <i class="fas fa-compress"></i>
+                    <h3>Image Compression</h3>
+                    <p>Reduce file size while maintaining quality</p>
+                </div>
+                <div class="feature-card glass-effect">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>Format Conversion</h3>
+                    <p>Convert between multiple image formats</p>
+                </div>
+                <div class="feature-card glass-effect">
+                    <i class="fas fa-cut"></i>
+                    <h3>Background Removal</h3>
+                    <p>AI-powered background removal</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- AdSense In-article Ad -->
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block; text-align:center;"
+                 data-ad-layout="in-article"
+                 data-ad-format="fluid"
+                 data-ad-client="ca-pub-2775618085175822"
+                 data-ad-slot="7493884191"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <!-- New Responsive Ad Unit -->
+        <div class="ad-container glass-effect">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-2775618085175822"
+                 data-ad-slot="1012268140"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <!-- Image Editor Section (Initially Hidden) -->
+        <section id="imageEditor" class="image-editor glass-effect hidden">
+            <div class="editor-container">
+                <div class="preview-container">
+                    <img id="previewImage" src="" alt="Preview">
+                </div>
+                <div class="editor-controls">
+                    <div class="control-group">
+                        <h3><i class="fas fa-compress"></i> Compression Level</h3>
+                        <div class="slider-container">
+                            <input type="range" id="compressionLevel" min="0" max="100" value="80">
+                            <span id="compressionValue">80%</span>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <h3><i class="fas fa-file-image"></i> Output Format</h3>
+                        <select id="formatSelect" class="format-select">
+                            <option value="jpeg">JPEG</option>
+                            <option value="png">PNG</option>
+                            <option value="webp">WebP</option>
+                        </select>
+                    </div>
+                    <button id="processButton" class="neon-btn">
+                        <i class="fas fa-magic"></i> Process Image
+                    </button>
+                    <button id="removeBackground" class="neon-btn">
+                        <i class="fas fa-magic"></i> Remove Background
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
